@@ -32,9 +32,9 @@ a^{(l)} = \sigma(z^{(l)})
 $$
 
 where:
-- \( \mathbf{W}^{(l)} \) are learnable weights
-- \( \mathbf{b}^{(l)} \) are biases
-- \( \sigma \) is the activation function
+- **W⁽ˡ⁾** are learnable weights
+- **b⁽ˡ⁾** are biases  
+- **σ** is the activation function
 
 ---
 
