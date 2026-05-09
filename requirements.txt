@@ -1,6 +1,6 @@
-numpy, 
-matplotlib, 
-scikit-learn, 
-streamlit, 
-jupyter, 
+numpy
+matplotlib 
+scikit-learn 
+streamlit
+jupyter
 pytest
