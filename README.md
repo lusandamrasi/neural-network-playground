@@ -19,22 +19,18 @@ An interpretable neural network framework implemented from first principles usin
 
 # Mathematical Foundation
 
-## Forward Propagation
+### Forward Propagation
 
 For layer \( l \):
 
-$$
-z^{(l)} = W^{(l)}a^{(l-1)} + b^{(l)}
-$$
+$$ \mathbf{z}^{(l)} = \mathbf{W}^{(l)} \mathbf{a}^{(l-1)} + \mathbf{b}^{(l)} $$
 
-$$
-a^{(l)} = \sigma(z^{(l)})
-$$
+$$ \mathbf{a}^{(l)} = \sigma(\mathbf{z}^{(l)}) $$
 
 where:
-- \( W^{(l)} \) are learnable weights
-- \( b^{(l)} \) are biases
-- \( \sigma \) is the activation function
+- \( \mathbf{W}^{(l)} \) – weight matrix
+- \( \mathbf{b}^{(l)} \) – bias vector
+- \( \sigma \) – activation function (ReLU / Sigmoid / Tanh)
 
 ---
 
